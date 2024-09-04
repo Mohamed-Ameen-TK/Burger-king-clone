@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="bk.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- head -->
+    <div class="head">
+        <div class="button-icon">
+            <button class="icon"><i class="fa fa-bars"></i></button>
+        </div>
+        <div>
+            <img class="logo-image" src="logo bk.webp" alt="">
+        </div>
+        <div>
+            <button class="buttons">Sign Up / Sign In</button>
+            <button class="button2">View Cart</button>
+            <div class="cart-icon">
+                <button class="cart"><i class="fa fa-bag-shopping"></i></button>
+            </div>
+            <!-- centre div (big one) -->
+
+            <div class="centre">
+                <div centre1>
+                    <p class="trademark"><strong>Start your <br> BK<span class="symbol"><sup>&reg;</sup></span>
+                            order.</strong></p>
+                </div>
+                <button class="order-icon"><i class="fa fa-bag-shopping"></i></button>
+                <button class="order-button">
+                    Order Pickup
+                </button>
+                <button class="delivery-button">
+                    Order Delivery
+                </button>
+                <div>
+                    <img class="gif" src="gif.gif" alt="">
+                </div>
+                <div class="image">
+                    <img class="walmart" src="walmart image.webp" alt="">
+                    <img class="fiery" src="fiery.webp" alt="">
+                </div>
+                <div class="content1">
+                    BK<span class="symbol1"><sup>&reg;</sup></span> and Walmart+go better together<p class="line2">
+                        <br>Unlock even more tasty savings by linking your Royal Perks account with your Walmart+
+                        membership.</p><br><a class="terms1" href="">See Terms</a>
+                </div>
+                <div>
+                    <button class="more">Learn More</button>
+                </div>
+                <div class="content2">
+                    Can you handle the heat? <p class="line2"><br>Try our new Fiery menu—a lineup of 5 spicy creations
+                        that’ll kick up the heat. Choose from mild to wild items for spicy, your way! Available for a
+                        limited time!</p><br><a class="terms2" href="">See More</a>
+                </div>
+                <div>
+                    <button class="more2">Learn More</button>
+                </div>
+                <div class="image2">
+                    <img class="six" src="$6.webp" alt="">
+                    <img class="off" src="off.webp" alt="">
+                </div>
+                <div class="content3">
+                    Mornings rule with BK<span class="symbol1"><sup>&reg;</sup></span>
+                    <p class="line2"><br>Charge up for the day ahead with your choice of 2 biscuit sandwiches, a small
+                        order of crispy Hash Browns and a Sm. Coffee for only $6.</p><br><a class="terms3" href="">See
+                        More</a>
+                </div>
+                <div>
+                    <button class="now">Order Now</button>
+                </div>
+                <div class="content4">
+                    $3 OFF any $20+ BK<span class="symbol4"><sup>&reg;</sup></span> delivery order!</span>
+                    <p class="line2"><br>Save time and money with $3 OFF any $20+ BK® delivery order. At part. U.S.
+                        rest. Fees and higher prices apply.</p><br><a class="terms2" href="">See More</a>
+                </div>
+                <div>
+                    <button class="now1">Order Now</button>
+                </div>
+                <!-- ---------Bottom div--------- -->
+
+                <div class="down">
+                    <div class="left">
+                        <img src="mobile.webp" alt="">
+                    </div>
+                    <div class="right">
+                        <h1>Save $$$ <br>
+                            With offers on demand</h1>
+                        <img class="as" src="app store button.png" alt="">
+                        <img class="ps" src="G play button.png" alt="">
+                        <p class="para2">Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S.
+                            and other <br> countries. App Store is a service mark of Apple Inc. Google Play is a
+                            trademark of Google Inc. <br> Terms apply.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Small div -->
+
+            <div class="small">
+                <p class="para3">TM & Copyright 2024 Burger King Company LLC. All Rights Reserved.
+                    |
+                    <u>Do Not Sell Or Share My Personal Information</u>
+                </p>
+            </div>
+
+            <!-- Footer -->
+
+            <footer>
+                <div class="home">
+                    <i class="fa-solid fa-house"></i><br> Home
+                </div>
+                <div class="home">
+                    <i class="fa-solid fa-burger"></i><br> Menu
+                </div>
+                <div class="home">
+                    <i class="fa-brands fa-discourse"></i><br> Offers
+                </div>
+                <div class="home">
+                    <i class="fa-solid fa-award"></i><br> Rewards
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4ebdd;
+}
+
+.head {
+    background-color: #f4ebdd;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    box-shadow: 0px 1px 3px rgb(175, 174, 174);
+}
+
+.button-icon {
+    width: 25px;
+    height: 30px;
+    padding-left: 80px;
+}
+
+.icon {
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+}
+
+.logo-image {
+    width: 90px;
+    height: 70px;
+    padding-left: 630px;
+    padding-top: -1px;
+    margin-top: -59px;
+    cursor: pointer;
+}
+
+.buttons {
+    color: white;
+    background-color: rgb(214, 35, 0);
+    border: 1px;
+    border-radius: 500px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 240px;
+    font-weight: bold;
+
+}
+
+.button2 {
+    color: white;
+    background-color: rgb(214, 35, 0);
+    border: 1px;
+    border-radius: 500px;
+    padding-top: 8px;
+    padding-left: 46px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    float: right;
+    margin-top: -55px;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.cart-icon {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    float: right;
+}
+
+.cart {
+    color: white;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    padding-left: 0px;
+    padding-top: 2px;
+    margin-top: -50px;
+    margin-left: 300px;
+    padding-bottom: 520px;
+
+}
+
+.centre {
+    background-color: #f4ebdd;
+    width: 100%;
+    height: 1500px;
+    padding-top: 10px;
+}
+
+.centre1 {
+    width: 50%;
+    height: 400px;
+}
+
+.trademark {
+    height: 100px;
+    padding-left: 80px;
+    font-size: 60px;
+    color: rgb(80, 35, 20);
+    font-family: 'Cooper Black', sans-serif;
+}
+
+.symbol {
+    font-size: 30px;
+    margin-top: 20px;
+    vertical-align: 0.5em;
+    line-height: 1;
+}
+
+.order-button {
+    color: white;
+    background-color: rgb(214, 35, 0);
+    font-weight: bolder;
+    border-radius: 9999px;
+    border: 0;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+    font-family: 'Cooper Black', sans-serif;
+}
+
+.order-icon {
+    color: white;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    padding-left: 189px;
+    padding-top: 23px;
+
+}
+
+.delivery-button {
+    color: rgb(214, 35, 0);
+    background-color: transparent;
+    font-weight: bolder;
+    border-radius: 9999px;
+    border-color: rgb(214, 35, 0);
+    padding-left: 100px;
+    padding-right: 65px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 18px;
+    font-family: 'Cooper Black', sans-serif;
+    letter-spacing: 0;
+    margin-right: 111px;
+    margin-left: 110px;
+
+}
+
+.gif {
+    padding-left: 550px;
+    padding-top: -2px;
+    margin-top: -355px;
+    padding-bottom: 50px;
+    position: absolute;
+    width: 650px;
+    height: 400px;
+}
+
+.image {
+    background-color: #f4ebdd;
+    width: 100%;
+    height: 500px;
+}
+
+.walmart {
+    width: 580px;
+    height: 290px;
+    position: absolute;
+    padding-left: 85px;
+    padding-top: 100px;
+}
+
+.fiery {
+    width: 580px;
+    height: 290px;
+    position: absolute;
+    padding-left: 685px;
+    padding-top: 100px;
+}
+
+.content1 {
+    color: rgb(80, 35, 20);
+    background-color: white;
+    width: 540px;
+    height: 180px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -110px;
+    margin-left: 85px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 22px;
+    border-radius: 0 0 20px 20px;
+}
+
+.line2 {
+    color: rgb(80, 35, 20);
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: -1px;
+    font-family: Flame-RegularSans;
+}
+
+.terms1 {
+    position: absolute;
+    color: rgb(80, 35, 20);
+    font-family: Flame-RegularSans;
+    font-size: 15px;
+    margin-top: -25px;
+}
+
+
+.more {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 530px;
+    border-width: 1px;
+    border-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.content2 {
+    color: rgb(80, 35, 20);
+    background-color: white;
+    width: 540px;
+    height: 180px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: -110px;
+    margin-left: 685px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 25px;
+    border-radius: 0 0 20px 20px;
+}
+
+.more2 {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 1130px;
+    border-width: 1px;
+    border-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.image2 {
+    background-color: #f4ebdd;
+    width: 100%;
+    height: 500px;
+}
+
+.six {
+    width: 580px;
+    height: 290px;
+    position: absolute;
+    padding-left: 85px;
+    padding-top: 130px;
+
+}
+
+.off {
+    width: 580px;
+    height: 265px;
+    position: absolute;
+    padding-left: 685px;
+    padding-top: 130px;
+
+}
+
+.content3 {
+    color: rgb(80, 35, 20);
+    background-color: white;
+    width: 540px;
+    height: 180px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    margin-top: -110px;
+    margin-left: 85px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 22px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.content4 {
+    color: rgb(80, 35, 20);
+    background-color: white;
+    width: 540px;
+    height: 180px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    margin-top: -110px;
+    margin-left: 685px;
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 22px;
+    font-size: 25px;
+    border-radius: 0 0 20px 20px;
+}
+
+.three {
+    margin-top: -5px;
+}
+
+.terms2 {
+    position: absolute;
+    color: rgb(80, 35, 20);
+    font-family: Flame-RegularSans;
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left: 1px;
+}
+
+.terms3 {
+    position: absolute;
+    color: rgb(80, 35, 20);
+    font-family: Flame-RegularSans;
+    font-size: 15px;
+    margin-top: -25px;
+    margin-left: 1px;
+}
+
+.now {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 530px;
+    border-width: 1px;
+    border-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.now1 {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 1130px;
+    border-width: 1px;
+    border-color: rgb(214, 35, 0);
+    border-radius: 50px;
+    background-color: transparent;
+
+}
+
+.down {
+    display: flex;
+    margin-top: 300px;
+    width: 100%;
+    height: 432px;
+    background-color: rgba(234, 226, 210, 255);
+}
+
+.left {
+    width: 50%;
+
+}
+
+.left img {
+    width: 450px;
+    height: 440px;
+    padding-left: 150px;
+    margin-top: -50px;
+}
+
+.right {
+    width: 50%;
+}
+
+.right h1 {
+    color: rgb(80, 35, 20);
+    font-family: 'Cooper Black', sans-serif;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.as {
+    position: absolute;
+    width: 189px;
+    height: 54px;
+    margin-top: 4px;
+}
+
+.ps {
+    position: absolute;
+    padding-left: 210px;
+    margin-top: -65px;
+    width: 210px;
+    height: 192px;
+}
+
+.para2 {
+    margin-top: 158px;
+    color: rgb(80, 35, 20);
+}
+
+.small {
+    background-color: rgb(80, 35, 20);
+    width: 100%;
+    height: 50px;
+    margin-top: 570px;
+}
+
+.para3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Flame-RegularSans;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: #f4ebdd;
+    width: 100%;
+    height: 60px;
+}
+
+.home {
+    width: 25%;
+    color: rgb(80, 35, 20);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+
+}
